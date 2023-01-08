@@ -1,0 +1,30 @@
+
+
+p{
+    text-align:center;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+
+#laptop{
+   background-color: skyblue;
+   
+   margin-left: 60%;
+   height: 400px;
+   float: left;
+   border:solid;
+   
+}
+
+#p2{
+    clear: left;
+}
+
+#row1{
+    
+    font-family: Arial, Helvetica, sans-serif ;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20%;
+    font-size: 15px;
+    width: 1000px;
+}
