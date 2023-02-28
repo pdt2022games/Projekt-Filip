@@ -1,20 +1,33 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div>
+    <img alt="Vue logo" src="./assets/logo.png">
+      <div id="hlava"></div>
+      <div id="torso"></div>
+      <div id="bottom"></div> 
+
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 
-export default {
-  name: 'App',
-  components: {
-    HelloWorld
+import Hlava from './components/Hlava.vue';
+import Chest from './components/Chest.vue';
+import Bottom from './components/Bottom.vue';
+
+export default{
+   name: 'App',
+   components: {
+    Hlava,
+    Chest,
+    Bottom
   }
 }
 </script>
 
 <style>
+#head{
+  width: 100px;
+}
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
